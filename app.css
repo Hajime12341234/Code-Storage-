@@ -1,0 +1,41 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.top-nav.scrolled {
+  background-color: #333; /* Change to your desired background color for scrolled state */
+}
+
+.top-nav .nav-link-button {
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.top-nav .nav-link-button.active {
+  color: #007bff;
+}
+
+.top-nav .nav-link-button:hover,
+.top-nav .nav-link-button:focus {
+  color: #007bff;
+  outline: none;
+}
