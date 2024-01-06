@@ -88,7 +88,7 @@ const Blog = () => {
               <p className="blog-paragraph">The collection of random thoughts, some of which are rational.</p>
           </div>
           <div className="blog-content-container">
-          <Link to="/blog/1" className="blog-content" onClick={() => handleBlogClick(1)}>
+          <Link to="/blog/myFirstBlog" className="blog-content" onClick={() => handleBlogClick(1)}>
           <div className="blog-metadata">
             <span className="date-published">JANUARY 5, 2024 | 4 MINUTE READ</span>
             <span className="blog-title">The Blog Title 1</span>
@@ -106,7 +106,7 @@ const Blog = () => {
             </span>
           </div>
         </Link>
-        <Link to="/blog/2" className="blog-content" onClick={() => handleBlogClick(2)}>
+        <Link to="/blog/mySecondBlog" className="blog-content" onClick={() => handleBlogClick(2)}>
           <div className="blog-metadata">
             <span className="date-published">JANUARY 10, 2024 | 3 MINUTE READ</span>
             <span className="blog-title">The Blog Title 2</span>
